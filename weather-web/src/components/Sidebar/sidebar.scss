@@ -1,0 +1,33 @@
+.sidebar {
+  border-radius: 27.244px;
+  background: rgba(196, 195, 193, 0.4);
+  padding: 42px 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  &__list {
+    cursor: pointer;
+    transition: transform 0.2s;
+    &:hover {
+      transform: scale(1.5);
+    }
+    h3 {
+      color: #fff;
+      font-size: 9.536px;
+      font-weight: 600;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .disabled {
+    img {
+      width: 34px;
+      height: 34px;
+    }
+    h3 {
+      color: #c4c3c1 !important;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.activities {
+  border-radius: 27.244px;
+  background: rgba(196, 195, 193, 0.4);
+  padding: 46px 19px 45px 12px;
+  display: flex;
+  align-items: center;
+  .slick-slider {
+    overflow: hidden;
+  }
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  &__day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3 {
+      font-size: 12px;
+      font-weight: 400;
+    }
+    img {
+      max-width: 60px;
+      max-height: 42px;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    &-top {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      img {
+        width: 20px;
+        height: 28px;
+      }
+      h4 {
+        font-size: 24px;
+      }
+    }
+    h3 {
+      font-size: 32.693px;
+    }
+    h1 {
+      font-size: 64px;
+    }
+  }
+  &__center {
+    img {
+    }
+  }
+  &__right {
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
